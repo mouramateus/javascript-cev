@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mais script</title>
+  <style>
+    *{
+      font-size: 2em;
+    }
+  </style>
+</head>
+<body>
+  
+  <script>
+    var n1 = String(window.prompt('Digite seu nome:'))
+    var n2 = Number (window.prompt('Digite seu salário:'))
+    n2.toFixed(2).replace('.',',')
+    document.write(`Bem vindo ${n1}, obrigado por informar seu salário que é ${n2.toLocaleString('pt-BR', {style: 'currency', currency:'BRL'})}.`)
+  </script>
+
+</body>
+</html>

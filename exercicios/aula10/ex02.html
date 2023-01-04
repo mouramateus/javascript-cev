@@ -18,10 +18,14 @@
       font-size: 1em;
     }
     
-    div{
+    div.res{
       text-decoration: underline;
     }
 
+    a {
+      color: white;
+      text-decoration: none;
+    }
   </style>
 </head>
 <body>
@@ -30,6 +34,11 @@
   <input type="number" name="txtn2" id="txtn2">
   <input type="button" value="Somar" onclick="somar()">
   <div id="res"></div>
+
+  <div>
+    Entrar em site interativo:
+    <a href="ex01.html" id="site">Clique aqui!</a>
+  </div>
 
   <script>
     function somar() {

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Estudo de DOM</title>
+  <style>
+    body {
+      background-color: rgb(42, 104, 158);
+      color: white;
+      font: normal 2em arial;
+    }
+  </style>
+</head>
+<body>
+  <h1>Iniciando estudo de DOM</h1>
+  <p>Aqui vai o resultado:</p>
+  <p>Aprendendo a usar o <strong>DOM</strong> em JavaScript.</p> <!--Document Object Model-->
+  <div id="msg">Clique em mim</div>
+  <script>
+    /*
+    var corpo = window.document.body
+    var outro = window.document.getElementsByTagName('p')[1]
+    document.write('Resultado:' + outro.innerHTML)
+    */
+    var d = window.document.querySelector('p') 
+    /* Usando o querySelector, a seleção de objetos é por meio dos parâmetros do CSS (# e .).
+    */
+    d.innerHTML = 'Legal'
+    d.style.background = 'red'
+  </script>
+</body>
+</html>

@@ -25,6 +25,10 @@ div {
   padding: 10px;
 }
 
+div#foto {
+  width: 50vh;
+}
+
 footer {
   font-style: italic;
   padding: 15px;

@@ -2,7 +2,7 @@
 
 body {
   background-color: rgb(65, 139, 232);
-  font: normal 15pt Arial;
+  font: normal 1.5em Arial;
 }
 
 header {
@@ -14,9 +14,15 @@ section {
   background-color: white;
   padding: 15px;
   margin: auto;
-  width: 60vw;
+  width: 50vw;
   border-radius: 10px;
   box-shadow: 4px 4px 7px 0px rgba(0, 0, 0, 0.582);
+}
+
+div {
+  font-weight: 550;
+  text-align: center;
+  padding: 10px;
 }
 
 footer {

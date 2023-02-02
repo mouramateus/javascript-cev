@@ -15,9 +15,17 @@ section {
   text-align: center;
   padding: 15px;
   margin: auto;
-  width: 40vh;
+  width: 50vw;
   border-radius: 10px;
   box-shadow: 4px 4px 7px 0px rgba(0, 0, 0, 0.582);
+}
+
+input#txtano {
+  max-width: 100%;
+}
+
+img {
+  max-width: 100%;
 }
 
 footer {
